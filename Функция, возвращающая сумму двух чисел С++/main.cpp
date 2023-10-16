@@ -2,13 +2,13 @@
 #include <iostream>
 using namespace std;
 
-int sum(int a, int b)
+int sum(int a, int b)                             // Определение функции
 {
 	return a + b;
 }
 
 
-int main()
+int main()                                        // Главная функция
 {
 	int a = 5, b = 3, c;
 	c = sum(a, b);
